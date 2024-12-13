@@ -1,0 +1,9 @@
+.ad-main {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    background-color: rgb(237, 237, 237);
+    margin-top: 30px;
+}
+  
