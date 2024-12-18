@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import AdSectionHome from '../../components/AdSectionHome/AdSectionHome'
 import Category from '../../components/Category/Category'
 import ProductCards from '../../components/ProductCards/ProductCards'
+import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Category/>
       <AdSectionHome/>
       <ProductCards card_title={'Fresh recommendations'}/>
+      <Footer/>
     </div>
   )
 }

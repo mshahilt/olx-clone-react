@@ -1,7 +1,6 @@
 const Category = require("../models/CategoryModel");
 
 const insertCategory = async (req, res) => {
-    console.log('fun worked')
   try {
     const { name, fields } = req.body;
 
@@ -17,6 +16,7 @@ const insertCategory = async (req, res) => {
 const getCategoryFields = async (req, res) => {
   try {
     const { name } = req.params;
+
 
     const category = await Category.findOne({ name });
     if (!category) {

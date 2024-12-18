@@ -1,3 +1,4 @@
+@import "react-toastify/dist/ReactToastify.css";
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -179,7 +180,7 @@
     background-color: #0056b3;
   }
   .modal-content {
-    position: relative; /* Ensure the button is positioned relative to the modal */
+    position: relative;
     background: white;
     padding: 20px;
     border-radius: 8px;
